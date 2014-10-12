@@ -848,175 +848,6 @@ Epson Toyocom FCC-255</description>
 <text x="-5.874" y="2.074" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-5.851" y="-2.405" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="ANT_PCB_2.4GHZ_NRF8001_1.6MM_1OZ">
-<description>&lt;p&gt;2.4GHz PCB Antenna for Nordic nRF8001 Modules&lt;/p&gt;
-&lt;p&gt;Source: nRF2470 Production Files (nRF8001-DK Rev 1.0)&lt;/p&gt;</description>
-<wire x1="-8.1686" y1="17.0256" x2="-8.1686" y2="1.5799" width="1.27" layer="1"/>
-<wire x1="-8.1686" y1="1.5799" x2="-6.5888" y2="0" width="1.27" layer="1"/>
-<wire x1="-6.5888" y1="0" x2="0" y2="0" width="1.27" layer="1"/>
-<smd name="TESTPOINT" x="-8.1686" y="17.6047" dx="1.27" dy="1.27" layer="1" cream="no"/>
-<smd name="FEED" x="0" y="0" dx="1.27" dy="1.27" layer="1" stop="no" cream="no"/>
-</package>
-<package name="ANT_PCB_2.4GHZ_NRF8001_1.6MM_1OZ_REV">
-<wire x1="8.1686" y1="17.0256" x2="8.1686" y2="1.5799" width="1.27" layer="1"/>
-<wire x1="8.1686" y1="1.5799" x2="6.5888" y2="0" width="1.27" layer="1"/>
-<wire x1="6.5888" y1="0" x2="0" y2="0" width="1.27" layer="1"/>
-<smd name="TESTPOINT" x="8.1686" y="17.6047" dx="1.27" dy="1.27" layer="1" cream="no"/>
-<smd name="FEED" x="0" y="0" dx="1.27" dy="1.27" layer="1" stop="no" cream="no"/>
-</package>
-<package name="ANT_PCB_868MHZ_2.4GHZ_DUALBAND">
-<description>&lt;p&gt;Source: CC-ANTENNA-DK Board #6&lt;/p&gt;
-&lt;p&gt;Note: Layed out on a 0.1mm grid, with 0.2mm polygon width, meaning ever so slightly smaller than 8mil ... Eagle DRU may complain about this with 8 mil limits.&lt;/p&gt;</description>
-<polygon width="0.2032" layer="1">
-<vertex x="-18.95" y="25.25"/>
-<vertex x="18.85" y="25.25"/>
-<vertex x="18.85" y="18.45"/>
-<vertex x="-17.15" y="18.45"/>
-<vertex x="-17.15" y="15.25"/>
-<vertex x="18.85" y="15.25"/>
-<vertex x="18.85" y="8.45"/>
-<vertex x="0.85" y="8.45"/>
-<vertex x="0.85" y="1.55"/>
-<vertex x="0.25" y="0.85"/>
-<vertex x="0.25" y="-0.25"/>
-<vertex x="-0.25" y="-0.25"/>
-<vertex x="-0.25" y="0.85"/>
-<vertex x="-0.95" y="1.55"/>
-<vertex x="-0.95" y="10.25"/>
-<vertex x="17.05" y="10.25"/>
-<vertex x="17.05" y="13.45"/>
-<vertex x="-18.95" y="13.45"/>
-<vertex x="-18.95" y="20.25"/>
-<vertex x="17.05" y="20.25"/>
-<vertex x="17.05" y="23.45"/>
-<vertex x="-18.95" y="23.45"/>
-</polygon>
-<wire x1="-0.4" y1="26.422" x2="-0.4" y2="22.612" width="0.762" layer="21"/>
-<pad name="P$1" x="-17.35" y="24.35" drill="0.3"/>
-<pad name="P$2" x="-15.85" y="24.35" drill="0.3"/>
-<pad name="P$3" x="-14.35" y="24.35" drill="0.3"/>
-<pad name="P$4" x="-12.85" y="24.35" drill="0.3"/>
-<pad name="P$5" x="-11.35" y="24.35" drill="0.3"/>
-<pad name="P$6" x="-9.85" y="24.35" drill="0.3"/>
-<pad name="P$7" x="-8.35" y="24.35" drill="0.3"/>
-<pad name="P$8" x="-6.85" y="24.35" drill="0.3"/>
-<pad name="P$9" x="-5.35" y="24.35" drill="0.3"/>
-<pad name="P$10" x="-3.85" y="24.35" drill="0.3"/>
-<pad name="P$11" x="-2.35" y="24.35" drill="0.3"/>
-<pad name="P$12" x="-0.85" y="24.35" drill="0.3"/>
-<pad name="P$13" x="0.65" y="24.35" drill="0.3"/>
-<pad name="P$14" x="2.15" y="24.35" drill="0.3"/>
-<pad name="P$15" x="3.65" y="24.35" drill="0.3"/>
-<pad name="P$16" x="5.15" y="24.35" drill="0.3"/>
-<pad name="P$17" x="6.65" y="24.35" drill="0.3"/>
-<pad name="P$18" x="8.15" y="24.35" drill="0.3"/>
-<pad name="P$19" x="9.65" y="24.35" drill="0.3"/>
-<pad name="P$20" x="11.15" y="24.35" drill="0.3"/>
-<pad name="P$21" x="12.65" y="24.35" drill="0.3"/>
-<pad name="P$22" x="14.15" y="24.35" drill="0.3"/>
-<pad name="P$23" x="15.65" y="24.35" drill="0.3"/>
-<pad name="P$24" x="17.15" y="24.35" drill="0.3"/>
-<pad name="P$25" x="18.05" y="23.25" drill="0.3"/>
-<pad name="P$26" x="18.05" y="21.65" drill="0.3"/>
-<pad name="P$27" x="18.05" y="20.05" drill="0.3"/>
-<pad name="P$28" x="-17.35" y="19.35" drill="0.3"/>
-<pad name="P$29" x="-15.85" y="19.35" drill="0.3"/>
-<pad name="P$30" x="-14.35" y="19.35" drill="0.3"/>
-<pad name="P$31" x="-12.85" y="19.35" drill="0.3"/>
-<pad name="P$32" x="-11.35" y="19.35" drill="0.3"/>
-<pad name="P$33" x="-9.85" y="19.35" drill="0.3"/>
-<pad name="P$34" x="-8.35" y="19.35" drill="0.3"/>
-<pad name="P$35" x="-6.85" y="19.35" drill="0.3"/>
-<pad name="P$36" x="-5.35" y="19.35" drill="0.3"/>
-<pad name="P$37" x="-3.85" y="19.35" drill="0.3"/>
-<pad name="P$38" x="-2.35" y="19.35" drill="0.3"/>
-<pad name="P$39" x="-0.85" y="19.35" drill="0.3"/>
-<pad name="P$40" x="0.65" y="19.35" drill="0.3"/>
-<pad name="P$41" x="2.15" y="19.35" drill="0.3"/>
-<pad name="P$42" x="3.65" y="19.35" drill="0.3"/>
-<pad name="P$43" x="5.15" y="19.35" drill="0.3"/>
-<pad name="P$44" x="6.65" y="19.35" drill="0.3"/>
-<pad name="P$45" x="8.15" y="19.35" drill="0.3"/>
-<pad name="P$46" x="9.65" y="19.35" drill="0.3"/>
-<pad name="P$47" x="11.15" y="19.35" drill="0.3"/>
-<pad name="P$48" x="12.65" y="19.35" drill="0.3"/>
-<pad name="P$49" x="14.15" y="19.35" drill="0.3"/>
-<pad name="P$50" x="15.65" y="19.35" drill="0.3"/>
-<pad name="P$51" x="17.15" y="19.35" drill="0.3"/>
-<pad name="P$52" x="-17.35" y="14.35" drill="0.3"/>
-<pad name="P$53" x="-15.85" y="14.35" drill="0.3"/>
-<pad name="P$54" x="-14.35" y="14.35" drill="0.3"/>
-<pad name="P$55" x="-12.85" y="14.35" drill="0.3"/>
-<pad name="P$56" x="-11.35" y="14.35" drill="0.3"/>
-<pad name="P$57" x="-9.85" y="14.35" drill="0.3"/>
-<pad name="P$58" x="-8.35" y="14.35" drill="0.3"/>
-<pad name="P$59" x="-6.85" y="14.35" drill="0.3"/>
-<pad name="P$60" x="-5.35" y="14.35" drill="0.3"/>
-<pad name="P$61" x="-3.85" y="14.35" drill="0.3"/>
-<pad name="P$62" x="-2.35" y="14.35" drill="0.3"/>
-<pad name="P$63" x="-0.85" y="14.35" drill="0.3"/>
-<pad name="P$64" x="0.65" y="14.35" drill="0.3"/>
-<pad name="P$65" x="2.15" y="14.35" drill="0.3"/>
-<pad name="P$66" x="3.65" y="14.35" drill="0.3"/>
-<pad name="P$67" x="5.15" y="14.35" drill="0.3"/>
-<pad name="P$68" x="6.65" y="14.35" drill="0.3"/>
-<pad name="P$69" x="8.15" y="14.35" drill="0.3"/>
-<pad name="P$70" x="9.65" y="14.35" drill="0.3"/>
-<pad name="P$71" x="11.15" y="14.35" drill="0.3"/>
-<pad name="P$72" x="12.65" y="14.35" drill="0.3"/>
-<pad name="P$73" x="14.15" y="14.35" drill="0.3"/>
-<pad name="P$74" x="15.65" y="14.35" drill="0.3"/>
-<pad name="P$75" x="17.15" y="14.35" drill="0.3"/>
-<pad name="P$76" x="-18.05" y="18.35" drill="0.3"/>
-<pad name="P$77" x="-18.05" y="16.85" drill="0.3"/>
-<pad name="P$78" x="-18.05" y="15.35" drill="0.3"/>
-<pad name="P$79" x="18.15" y="13.85" drill="0.3"/>
-<pad name="P$80" x="18.15" y="12.35" drill="0.3"/>
-<pad name="P$81" x="18.15" y="10.85" drill="0.3"/>
-<pad name="P$82" x="18.15" y="9.35" drill="0.3"/>
-<pad name="P$83" x="16.65" y="9.35" drill="0.3"/>
-<pad name="P$84" x="15.15" y="9.35" drill="0.3"/>
-<pad name="P$85" x="13.65" y="9.35" drill="0.3"/>
-<pad name="P$86" x="12.15" y="9.35" drill="0.3"/>
-<pad name="P$87" x="10.65" y="9.35" drill="0.3"/>
-<pad name="P$88" x="9.15" y="9.35" drill="0.3"/>
-<pad name="P$89" x="7.65" y="9.35" drill="0.3"/>
-<pad name="P$90" x="6.15" y="9.35" drill="0.3"/>
-<pad name="P$91" x="4.65" y="9.35" drill="0.3"/>
-<pad name="P$92" x="3.15" y="9.35" drill="0.3"/>
-<pad name="P$93" x="1.65" y="9.35" drill="0.3"/>
-<pad name="P$94" x="0.15" y="9.35" drill="0.3"/>
-<pad name="P$95" x="0.15" y="7.85" drill="0.3"/>
-<pad name="P$96" x="0.15" y="6.35" drill="0.3"/>
-<pad name="P$97" x="0.15" y="4.85" drill="0.3"/>
-<pad name="P$98" x="0.15" y="3.35" drill="0.3"/>
-<pad name="P$99" x="0.15" y="1.85" drill="0.3"/>
-<smd name="FEED" x="0" y="0" dx="0.7" dy="0.7" layer="1"/>
-<polygon width="0.2032" layer="16">
-<vertex x="-18.95" y="25.25"/>
-<vertex x="18.85" y="25.25"/>
-<vertex x="18.85" y="18.45"/>
-<vertex x="-17.15" y="18.45"/>
-<vertex x="-17.15" y="15.25"/>
-<vertex x="18.85" y="15.25"/>
-<vertex x="18.85" y="8.45"/>
-<vertex x="0.85" y="8.45"/>
-<vertex x="0.85" y="1.55"/>
-<vertex x="0.25" y="0.85"/>
-<vertex x="0.25" y="0.1"/>
-<vertex x="-0.25" y="0.1"/>
-<vertex x="-0.25" y="0.85"/>
-<vertex x="-0.95" y="1.55"/>
-<vertex x="-0.95" y="10.25"/>
-<vertex x="17.05" y="10.25"/>
-<vertex x="17.05" y="13.45"/>
-<vertex x="-18.95" y="13.45"/>
-<vertex x="-18.95" y="20.25"/>
-<vertex x="17.05" y="20.25"/>
-<vertex x="17.05" y="23.45"/>
-<vertex x="-18.95" y="23.45"/>
-</polygon>
-</package>
 </packages>
 <symbols>
 <symbol name="FERRITE">
@@ -1143,16 +974,6 @@ Epson Toyocom FCC-255</description>
 <wire x1="1.27" y1="0.3175" x2="2.54" y2="0.3175" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="0.3175" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0.3175" x2="2.54" y2="0" width="0.254" layer="94"/>
-</symbol>
-<symbol name="ANT">
-<wire x1="0" y1="0" x2="0" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="3.81" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.81" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="3.81" width="0.254" layer="94"/>
-<wire x1="2.54" y1="3.81" x2="0" y2="3.81" width="0.254" layer="94"/>
-<text x="3.81" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="3.81" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P$1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1931,33 +1752,95 @@ Epson Toyocom FCC-255</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ANTENNA_PCB" uservalue="yes">
-<description>&lt;p&gt;Various pre-calculated PCB Antennas&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;NRF8001 1.6mm 1Oz&lt;/b&gt; - 2.4GHz PCB antenna for 1.6mm PCBs with 1oz copper, double-sided boards (no GND plan beneath antenna).  See nRF2740 production files for further information and impedance matching network.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;868MHz/2.4GHz DUALBAND&lt;/b&gt; - Dual 868MHz and 2.4GHz centered antenna based on board #6 of the CC-ANTENNA-DK from Chipcon/TI&lt;/p&gt;</description>
+</devicesets>
+</library>
+<library name="baluns">
+<packages>
+<package name="2450BM14A0002T">
+<smd name="P$1" x="-0.5" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$3" x="0.5" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$4" x="0.5" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$5" x="0" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.5" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
+<text x="0.86" y="0.61" size="0.254" layer="25" ratio="0">1</text>
+</package>
+</packages>
+<symbols>
+<symbol name="2450BM14A0002">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="BAL2" x="-15.24" y="5.08" length="middle"/>
+<pin name="DC" x="-15.24" y="0" length="middle"/>
+<pin name="NC" x="-15.24" y="-5.08" length="middle"/>
+<pin name="BAL1" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="UNBAL" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2450BM14A0002T">
+<description>2.45 GHz Impedance Matched Balun-Filter: Optimized for Nordic's Chipset
+nRF24L01, nRF24L01+, nRF24LE1, nRF24LU1, nRF24AP2, and nRF8001
+
+Datasheet via Farnell , take into account the 2.2NF cap</description>
 <gates>
-<gate name="G$1" symbol="ANT" x="0" y="0"/>
+<gate name="G$1" symbol="2450BM14A0002" x="0" y="0"/>
 </gates>
 <devices>
-<device name="NRF8001_1.6MM" package="ANT_PCB_2.4GHZ_NRF8001_1.6MM_1OZ">
+<device name="" package="2450BM14A0002T">
 <connects>
-<connect gate="G$1" pin="P$1" pad="FEED"/>
+<connect gate="G$1" pin="BAL1" pad="P$6"/>
+<connect gate="G$1" pin="BAL2" pad="P$1"/>
+<connect gate="G$1" pin="DC" pad="P$5"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="NC" pad="P$4"/>
+<connect gate="G$1" pin="UNBAL" pad="P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="FARNELL_OC" value="2148533" constant="no"/>
+<attribute name="FREQUENCY" value="2400-2500mhz"/>
+<attribute name="UNBALIMPEDANCE" value="50 ohm"/>
+</technology>
 </technologies>
 </device>
-<device name="NRF8001_1.6MM_REV" package="ANT_PCB_2.4GHZ_NRF8001_1.6MM_1OZ_REV">
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Johanson_antenna">
+<packages>
+<package name="2450AT18A100">
+<smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.6" layer="1"/>
+<smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.6" layer="1"/>
+<rectangle x1="-1.2" y1="-0.3" x2="0" y2="0.3" layer="21"/>
+<text x="-2.54" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="2450AT18A100">
+<wire x1="0" y1="0" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="3.81" width="0.254" layer="94"/>
+<text x="3.81" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<pin name="P$1" x="0" y="-5.08" visible="pad" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2450AT18A100">
+<gates>
+<gate name="G$1" symbol="2450AT18A100" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2450AT18A100">
 <connects>
-<connect gate="G$1" pin="P$1" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="868/2.4_DUALBAND" package="ANT_PCB_868MHZ_2.4GHZ_DUALBAND">
-<connects>
-<connect gate="G$1" pin="P$1" pad="FEED"/>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1983,8 +1866,6 @@ Epson Toyocom FCC-255</description>
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1µF"/>
 <part name="U$11" library="microbuilder" deviceset="VDD" device=""/>
 <part name="U1" library="microbuilder" deviceset="NRF8001" device="" value="nRF8001"/>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402" value="2.2nF"/>
-<part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
@@ -2015,15 +1896,11 @@ Epson Toyocom FCC-255</description>
 <part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10µF"/>
 <part name="U$19" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$60" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$28" library="microbuilder" deviceset="ANTENNA_PCB" device="NRF8001_1.6MM"/>
-<part name="L1" library="microbuilder" deviceset="INDUCTOR" device="_0402" value="8.2nH"/>
-<part name="L3" library="microbuilder" deviceset="INDUCTOR" device="_0402" value="3.9nH"/>
-<part name="L2" library="microbuilder" deviceset="INDUCTOR" device="_0402" value="5.6nH"/>
-<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="1.8pF"/>
-<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="1.2pF"/>
-<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="1.5pF"/>
-<part name="U$2" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$31" library="microbuilder" deviceset="GND" device=""/>
+<part name="U2" library="baluns" deviceset="2450BM14A0002T" device=""/>
+<part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402" value="2.2nF"/>
+<part name="U$18" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$20" library="microbuilder" deviceset="GND" device=""/>
+<part name="U3" library="Johanson_antenna" deviceset="2450AT18A100" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2032,6 +1909,7 @@ Epson Toyocom FCC-255</description>
 <text x="58.42" y="256.54" size="1.778" layer="97">SPI MODE 0</text>
 <text x="58.42" y="254" size="1.778" layer="97">but RDYN and REQN</text>
 <text x="58.42" y="251.46" size="1.778" layer="97">replace CS</text>
+<text x="139.7" y="287.02" size="1.778" layer="95" rot="R90">BALUN</text>
 </plain>
 <instances>
 <instance part="FB1" gate="G$1" x="12.7" y="330.2"/>
@@ -2039,9 +1917,10 @@ Epson Toyocom FCC-255</description>
 <instance part="U$72" gate="G$1" x="20.32" y="312.42"/>
 <instance part="C4" gate="G$1" x="20.32" y="320.04"/>
 <instance part="U$11" gate="G$1" x="5.08" y="335.28"/>
-<instance part="U1" gate="A" x="63.5" y="297.18"/>
-<instance part="C3" gate="G$1" x="129.54" y="279.4"/>
-<instance part="U$3" gate="G$1" x="129.54" y="271.78"/>
+<instance part="U1" gate="A" x="63.5" y="297.18" smashed="yes">
+<attribute name="NAME" x="63.5" y="297.18" size="1.778" layer="95" ratio="10"/>
+<attribute name="VALUE" x="45.72" y="276.86" size="1.27" layer="95" ratio="10"/>
+</instance>
 <instance part="U$4" gate="G$1" x="88.9" y="281.94"/>
 <instance part="U$5" gate="G$1" x="40.64" y="281.94"/>
 <instance part="C10" gate="G$1" x="7.62" y="292.1"/>
@@ -2073,15 +1952,11 @@ Epson Toyocom FCC-255</description>
 <instance part="U$19" gate="G$1" x="-2.54" y="281.94"/>
 <instance part="U1" gate="-SLUG" x="93.98" y="266.7"/>
 <instance part="U$60" gate="G$1" x="93.98" y="254"/>
-<instance part="U$28" gate="G$1" x="149.86" y="314.96"/>
-<instance part="L1" gate="G$1" x="114.3" y="299.72" rot="R90"/>
-<instance part="L3" gate="G$1" x="121.92" y="307.34"/>
-<instance part="L2" gate="G$1" x="121.92" y="292.1"/>
-<instance part="C5" gate="G$1" x="134.62" y="307.34" rot="R270"/>
-<instance part="C6" gate="G$1" x="142.24" y="302.26" rot="R180"/>
-<instance part="C15" gate="G$1" x="149.86" y="302.26" rot="R180"/>
-<instance part="U$2" gate="G$1" x="142.24" y="292.1"/>
-<instance part="U$31" gate="G$1" x="149.86" y="292.1"/>
+<instance part="U2" gate="G$1" x="129.54" y="297.18" rot="R90"/>
+<instance part="C16" gate="G$1" x="129.54" y="269.24"/>
+<instance part="U$18" gate="G$1" x="129.54" y="261.62"/>
+<instance part="U$20" gate="G$1" x="129.54" y="332.74" rot="R180"/>
+<instance part="U3" gate="G$1" x="139.7" y="330.2"/>
 </instances>
 <busses>
 </busses>
@@ -2091,11 +1966,6 @@ Epson Toyocom FCC-255</description>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="U$72" gate="G$1" pin="GND"/>
 <wire x1="20.32" y1="317.5" x2="20.32" y2="314.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="129.54" y1="276.86" x2="129.54" y2="274.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VSS@2"/>
@@ -2187,14 +2057,14 @@ Epson Toyocom FCC-255</description>
 <wire x1="93.98" y1="256.54" x2="93.98" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="142.24" y1="297.18" x2="142.24" y2="294.64" width="0.1524" layer="91"/>
+<pinref part="U$20" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="129.54" y1="330.2" x2="129.54" y2="312.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C15" gate="G$1" pin="1"/>
-<pinref part="U$31" gate="G$1" pin="GND"/>
-<wire x1="149.86" y1="297.18" x2="149.86" y2="294.64" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="U$18" gate="G$1" pin="GND"/>
+<wire x1="129.54" y1="266.7" x2="129.54" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -2268,20 +2138,6 @@ Epson Toyocom FCC-255</description>
 <pinref part="U$13" gate="G$1" pin="AVDD"/>
 <wire x1="93.98" y1="335.28" x2="93.98" y2="332.74" width="0.1524" layer="91"/>
 <junction x="93.98" y="332.74"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="U1" gate="A" pin="VDD_PA"/>
-<wire x1="129.54" y1="287.02" x2="129.54" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="294.64" x2="106.68" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="294.64" x2="106.68" y2="287.02" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="287.02" x2="129.54" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="127" y1="292.1" x2="129.54" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="292.1" x2="129.54" y2="287.02" width="0.1524" layer="91"/>
-<junction x="129.54" y="287.02"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -2370,8 +2226,9 @@ Epson Toyocom FCC-255</description>
 <net name="RESET" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="RESET"/>
-<wire x1="86.36" y1="292.1" x2="101.6" y2="292.1" width="0.1524" layer="91"/>
-<label x="88.9" y="292.1" size="1.778" layer="95"/>
+<wire x1="86.36" y1="292.1" x2="96.52" y2="292.1" width="0.1524" layer="91"/>
+<label x="99.06" y="279.4" size="1.778" layer="95" rot="R90"/>
+<wire x1="96.52" y1="292.1" x2="96.52" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="REQN" class="0">
@@ -2403,54 +2260,6 @@ Epson Toyocom FCC-255</description>
 <label x="73.66" y="264.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="ANT2"/>
-<wire x1="86.36" y1="299.72" x2="109.22" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="299.72" x2="109.22" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="L3" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="307.34" x2="114.3" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="307.34" x2="116.84" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="304.8" x2="114.3" y2="307.34" width="0.1524" layer="91"/>
-<junction x="114.3" y="307.34"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="ANT1"/>
-<wire x1="86.36" y1="297.18" x2="109.22" y2="297.18" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="297.18" x2="109.22" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="292.1" x2="114.3" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="292.1" x2="116.84" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="294.64" x2="114.3" y2="292.1" width="0.1524" layer="91"/>
-<junction x="114.3" y="292.1"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="L3" gate="G$1" pin="2"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="127" y1="307.34" x2="132.08" y2="307.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="U$28" gate="G$1" pin="P$1"/>
-<wire x1="139.7" y1="307.34" x2="142.24" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="307.34" x2="149.86" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="307.34" x2="149.86" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="304.8" x2="142.24" y2="307.34" width="0.1524" layer="91"/>
-<junction x="142.24" y="307.34"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="304.8" x2="149.86" y2="307.34" width="0.1524" layer="91"/>
-<junction x="149.86" y="307.34"/>
-</segment>
-</net>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="MOSI"/>
@@ -2463,6 +2272,48 @@ Epson Toyocom FCC-255</description>
 <pinref part="U1" gate="A" pin="SCK"/>
 <wire x1="60.96" y1="276.86" x2="60.96" y2="264.16" width="0.1524" layer="91"/>
 <label x="60.96" y="264.16" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="DC"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="281.94" x2="129.54" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="VDD_PA"/>
+<wire x1="129.54" y1="276.86" x2="129.54" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="294.64" x2="114.3" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="294.64" x2="114.3" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="276.86" x2="129.54" y2="276.86" width="0.1524" layer="91"/>
+<junction x="129.54" y="276.86"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="ANT1"/>
+<wire x1="86.36" y1="297.18" x2="116.84" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="297.18" x2="116.84" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="BAL2"/>
+<wire x1="116.84" y1="279.4" x2="124.46" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="279.4" x2="124.46" y2="281.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="ANT2"/>
+<wire x1="86.36" y1="299.72" x2="116.84" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="299.72" x2="116.84" y2="314.96" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="BAL1"/>
+<wire x1="116.84" y1="314.96" x2="124.46" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="314.96" x2="124.46" y2="312.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="UNBAL"/>
+<wire x1="134.62" y1="312.42" x2="134.62" y2="320.04" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="P$1"/>
+<wire x1="134.62" y1="320.04" x2="139.7" y2="320.04" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="320.04" x2="139.7" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
