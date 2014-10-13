@@ -60,91 +60,39 @@
 </layers>
 <library>
 <packages>
-<package name="2450BM15A0002">
-<smd name="P$1" x="0.65" y="0.9" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="P$2" x="-0.65" y="0.9" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="P$3" x="0" y="0.9" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="P$4" x="0" y="-0.9" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="P$5" x="-0.65" y="-0.9" dx="1" dy="0.35" layer="1" rot="R90"/>
-<smd name="P$6" x="0.65" y="-0.9" dx="1" dy="0.35" layer="1" rot="R90"/>
-<text x="1" y="1.2" size="0.254" layer="21">1</text>
-</package>
 <package name="2450BM14A0002T">
-<smd name="P$1" x="-0.5" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$2" x="0" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$3" x="0.5" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$4" x="0.5" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$5" x="0" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$6" x="-0.5" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R90"/>
-<text x="0.86" y="0.61" size="0.254" layer="25" ratio="0">1</text>
-</package>
-<package name="0868BM15C0001">
+<smd name="3" x="0.5" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="1" x="-0.5" y="-0.425" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="6" x="-0.5" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="5" x="0" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="4" x="0.5" y="0.425" dx="0.55" dy="0.25" layer="1" rot="R270"/>
+<wire x1="-1.05" y1="-0.8" x2="-1.05" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="0.8" x2="1.05" y2="-0.8" width="0.127" layer="21"/>
+<rectangle x1="-1.05" y1="-0.1" x2="-0.65" y2="0.1" layer="21" rot="R180"/>
+<text x="-0.35" y="1" size="0.762" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<wire x1="-1.05" y1="0.8" x2="-0.8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-0.8" x2="-0.8" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-0.8" x2="0.8" y2="-0.8" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="2450BM15A0002E">
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="UBAL" x="-15.24" y="5.08" length="middle"/>
-<pin name="GND1" x="-15.24" y="0" length="middle"/>
-<pin name="BAL" x="-15.24" y="-5.08" length="middle"/>
-<pin name="GND3" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="GND2" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="BAL2" x="15.24" y="-5.08" length="middle" rot="R180"/>
-</symbol>
 <symbol name="2450BM14A0002">
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="BAL2" x="-15.24" y="5.08" length="middle"/>
-<pin name="DC" x="-15.24" y="0" length="middle"/>
-<pin name="NC" x="-15.24" y="-5.08" length="middle"/>
-<pin name="BAL1" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="UNBAL" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="0868BM15C0001">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="BAL2" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="DC" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="NC" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="BAL1" x="-15.24" y="-5.08" length="middle"/>
+<pin name="GND" x="-15.24" y="0" length="middle"/>
 <pin name="UNBAL" x="-15.24" y="5.08" length="middle"/>
-<pin name="BAL1" x="-15.24" y="0" length="middle"/>
-<pin name="GND1" x="-15.24" y="-5.08" length="middle"/>
-<pin name="GND" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="BAL2" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="GND2" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="2450BM15A0002">
-<description>Johanson Technology, Inc.’s 2450BM15A0002 Impedance Matched RF Front-End Differential Balun-BPF integrated passive component was specifically designed for use with the CC253X, CC254X, CC257X, CC853X and CC852X family of chipsets.</description>
-<gates>
-<gate name="G$1" symbol="2450BM15A0002E" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2450BM15A0002">
-<connects>
-<connect gate="G$1" pin="BAL" pad="P$2"/>
-<connect gate="G$1" pin="BAL2" pad="P$5"/>
-<connect gate="G$1" pin="GND1" pad="P$3"/>
-<connect gate="G$1" pin="GND2" pad="P$4"/>
-<connect gate="G$1" pin="GND3" pad="P$6"/>
-<connect gate="G$1" pin="UBAL" pad="P$1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="FARNELL_OC" value="1885515" constant="no"/>
-<attribute name="INSERTIONLOSS" value="1.5db"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="2450BM14A0002T">
 <description>2.45 GHz Impedance Matched Balun-Filter: Optimized for Nordic's Chipset
 nRF24L01, nRF24L01+, nRF24LE1, nRF24LU1, nRF24AP2, and nRF8001
@@ -156,43 +104,18 @@ Datasheet via Farnell , take into account the 2.2NF cap</description>
 <devices>
 <device name="" package="2450BM14A0002T">
 <connects>
-<connect gate="G$1" pin="BAL1" pad="P$6"/>
-<connect gate="G$1" pin="BAL2" pad="P$1"/>
-<connect gate="G$1" pin="DC" pad="P$5"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="NC" pad="P$4"/>
-<connect gate="G$1" pin="UNBAL" pad="P$3"/>
+<connect gate="G$1" pin="BAL1" pad="3"/>
+<connect gate="G$1" pin="BAL2" pad="4"/>
+<connect gate="G$1" pin="DC" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC" pad="6"/>
+<connect gate="G$1" pin="UNBAL" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="FARNELL_OC" value="2148533" constant="no"/>
 <attribute name="FREQUENCY" value="2400-2500mhz"/>
 <attribute name="UNBALIMPEDANCE" value="50 ohm"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="0868BM15C0001">
-<description>868MHz Impedance Matched/Balun/BPF Integrated Component for T.I. CC110X,
-CC111X, CC113X and CC115X, CC110L, CC113L, CC115L and CC430</description>
-<gates>
-<gate name="G$1" symbol="0868BM15C0001" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2450BM15A0002">
-<connects>
-<connect gate="G$1" pin="BAL1" pad="P$2"/>
-<connect gate="G$1" pin="BAL2" pad="P$5"/>
-<connect gate="G$1" pin="GND" pad="P$3"/>
-<connect gate="G$1" pin="GND1" pad="P$4"/>
-<connect gate="G$1" pin="GND2" pad="P$6"/>
-<connect gate="G$1" pin="UNBAL" pad="P$1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="INSERTION_LOSS" value="2.1DB" constant="no"/>
-<attribute name="OPERATING_FREQ" value="863-875mhz"/>
 </technology>
 </technologies>
 </device>
